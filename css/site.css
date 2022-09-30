@@ -1,17 +1,20 @@
 :root{
     --primary-color:#000000;
     --secondary-color:#ffdf00;
-    --dark-color:#0a0808;
+    --dark-color:#1a1515;
     --white-color:#dff3e4;}
     body{
         color:var(--dark-color);
+        background-color: aliceblue;
+        font-family: 'Shojumaru', cursive;
     }
 
     nav{
-        color:var(--dark-color)!important 
+        color:var(--dark-color)
     }
 
     footer{background-color:var(--dark-color);
+        font-family: 'Irish Grover', cursive;
     }
 
     h1,h2,h3,h4,h5,h6{
@@ -66,4 +69,10 @@ pre[class*="language-"] {
 white-space: pre-wrap;
 word-break: break-all;
 word-wrap: break-word;
+}
+
+.font{
+    font-family: 'Irish Grover', cursive;
+
+
 }
